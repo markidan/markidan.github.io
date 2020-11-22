@@ -1,0 +1,51 @@
+a {    
+    --kiemeloSzin: rgb(240, 193, 107);
+    background: linear-gradient( to bottom, var(--kiemeloSzin) 0%, var(--kiemeloSzin) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 0px 0px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .2s;
+}
+
+li:hover a {
+    background-size: 4px 50px;
+}
+
+.menusav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_jobbszel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_szoveg{
+    margin-right: 16rem;
+}
+
+.logo{
+    margin-left: 2rem;
+}
+
+.logo img{
+    width: auto;
+    height: 60px;
+}
+
+nav ul{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+}
+
+ul > li{
+    display: inline-block;
+    font-size: 1.25em;
+    padding: 0 1em;
+    line-height: 60px;
+}
